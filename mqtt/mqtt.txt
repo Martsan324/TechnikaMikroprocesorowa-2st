@@ -1,0 +1,7 @@
+#subskrybent
+mosquitto_sub -t "test"
+
+#publisher
+mosquitto_pub -t "test" -m "red0" -h 192.168.43.158
+
+43.158
